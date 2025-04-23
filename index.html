@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apurv Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Email.js -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+  </head>
+  <body>
+    <!-- Intro Animation Container -->
+    <div id="intro-animation">
+      <svg
+        id="ap-logo"
+        width="300"
+        height="300"
+        viewBox="0 0 180 60.2"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          id="svgGroup"
+          stroke-linecap="round"
+          fill-rule="evenodd"
+          font-size="12pt"
+          stroke="#E6E6E6"
+          stroke-width="2"
+          fill="#fff"
+          style="stroke: #e6e6e6; stroke-width: 2; fill: #e6e6e6"
+        >
+          <path
+            id="letter-a"
+            d="M 76.768 5.6 L 71.268 5.6 A 94.093 94.093 0 0 0 67.141 5.695 A 119.665 119.665 0 0 0 63.668 5.9 A 41.128 41.128 0 0 0 58.033 6.693 A 35.758 35.758 0 0 0 55.968 7.2 A 18.523 18.523 0 0 0 52.857 8.357 A 14.021 14.021 0 0 0 49.968 10.2 A 9.06 9.06 0 0 0 48.338 12.033 A 8.009 8.009 0 0 0 47.718 13.15 A 9.483 9.483 0 0 0 47.233 14.449 Q 46.968 15.369 46.968 16.2 A 5.102 5.102 0 0 0 47.046 17.125 Q 47.138 17.624 47.34 18.003 A 2.084 2.084 0 0 0 48.068 18.8 A 0.3 0.3 0 0 1 48.102 18.802 Q 48.135 18.805 48.152 18.818 A 0.038 0.038 0 0 1 48.168 18.85 L 48.168 18.9 A 0.335 0.335 0 0 1 48.103 19.087 Q 47.955 19.307 47.468 19.55 Q 46.901 19.834 46.596 19.756 A 0.412 0.412 0 0 1 46.468 19.7 A 2.979 2.979 0 0 1 45.839 19.085 Q 45.222 18.295 44.718 16.85 Q 44.008 14.815 44.15 13.541 A 3.381 3.381 0 0 1 44.168 13.4 A 8.62 8.62 0 0 1 45.285 10.276 A 8.068 8.068 0 0 1 46.918 8.35 A 14.584 14.584 0 0 1 50.069 6.289 A 19.068 19.068 0 0 1 52.518 5.3 A 33.944 33.944 0 0 1 58.687 3.911 A 37.912 37.912 0 0 1 59.618 3.8 Q 63.368 3.4 66.818 3.3 A 286.903 286.903 0 0 1 69.258 3.239 Q 71.168 3.2 72.668 3.2 L 83.568 3.2 A 0.626 0.626 0 0 1 83.607 3.201 Q 83.749 3.21 83.678 3.29 A 0.242 0.242 0 0 1 83.668 3.3 Q 86.168 2.2 88.918 1.1 A 19.414 19.414 0 0 1 90.72 0.474 Q 92.356 0 93.668 0 A 1.886 1.886 0 0 1 94.23 0.09 Q 94.469 0.164 94.718 0.3 A 2.294 2.294 0 0 1 94.933 0.431 Q 95.268 0.666 95.268 0.9 A 0.292 0.292 0 0 1 95.103 1.146 Q 94.701 1.396 93.314 1.4 A 15.76 15.76 0 0 1 93.268 1.4 Q 92.268 1.4 91.218 1.75 Q 90.411 2.019 89.22 3.144 A 18.842 18.842 0 0 0 88.468 3.9 A 15.606 15.606 0 0 0 87.625 4.822 Q 86.747 5.855 85.656 7.404 A 66.228 66.228 0 0 0 84.968 8.4 A 130.941 130.941 0 0 0 83.054 11.313 Q 81.775 13.316 80.368 15.65 A 200.732 200.732 0 0 0 76.618 22.156 A 228.16 228.16 0 0 0 75.368 24.45 Q 72.868 29.1 70.568 33.6 Q 68.268 38.1 66.568 41.9 Q 66.368 42.5 65.468 44.65 A 50.22 50.22 0 0 0 64.382 47.494 A 61.617 61.617 0 0 0 63.768 49.35 A 20.005 20.005 0 0 0 63.25 51.331 Q 63.048 52.324 62.991 53.217 A 10.723 10.723 0 0 0 62.968 53.9 A 5.682 5.682 0 0 0 63.041 54.852 Q 63.329 56.54 64.766 56.598 A 2.567 2.567 0 0 0 64.868 56.6 A 4.281 4.281 0 0 0 66.331 56.336 A 5.076 5.076 0 0 0 66.668 56.2 Q 67.968 55.7 69.368 54.7 A 21.211 21.211 0 0 0 71.742 52.72 A 23.561 23.561 0 0 0 72.068 52.4 Q 74.668 49.9 76.468 47.55 Q 78.153 45.351 78.611 44.772 A 18.212 18.212 0 0 1 78.668 44.7 A 1.537 1.537 0 0 1 78.832 44.473 Q 78.934 44.358 79.045 44.291 A 0.62 0.62 0 0 1 79.368 44.2 Q 79.768 44.2 79.768 44.7 Q 79.768 44.954 79.554 45.351 A 3.862 3.862 0 0 1 79.468 45.5 Q 78.768 46.5 76.868 48.95 A 45.419 45.419 0 0 1 74.257 52.013 A 56.158 56.158 0 0 1 72.418 53.9 A 20.159 20.159 0 0 1 69.181 56.501 A 17.001 17.001 0 0 1 66.968 57.7 Q 66.068 58.1 65.068 58.35 Q 64.068 58.6 63.068 58.6 A 5.423 5.423 0 0 1 59.731 57.45 A 6.951 6.951 0 0 1 59.418 57.2 A 4.218 4.218 0 0 1 58.207 55.421 Q 57.768 54.25 57.768 52.6 A 16.868 16.868 0 0 1 58.112 49.294 A 22.915 22.915 0 0 1 58.918 46.35 A 78.956 78.956 0 0 1 59.691 44.195 Q 60.052 43.236 60.396 42.413 A 34.287 34.287 0 0 1 61.068 40.9 Q 63.068 36.6 65.818 31.3 Q 68.568 26 71.518 20.7 Q 74.468 15.4 76.968 11.1 Q 79.029 7.556 80.478 5.506 A 28.142 28.142 0 0 1 81.068 4.7 A 5.662 5.662 0 0 0 79.961 4.822 Q 78.625 5.091 76.768 5.95 Q 74.089 7.19 71.066 9.218 A 57.355 57.355 0 0 0 71.018 9.25 Q 67.968 11.3 65.368 14 A 166.601 166.601 0 0 0 62.91 16.597 Q 60.75 18.925 58.218 21.8 Q 54.168 26.4 49.468 31.4 Q 51.768 31.5 54.068 31.55 Q 56.368 31.6 58.668 31.6 Q 60.243 31.6 62.157 31.261 A 27.59 27.59 0 0 0 62.218 31.25 A 14.588 14.588 0 0 0 65.842 30.112 A 13.706 13.706 0 0 0 65.868 30.1 L 65.318 31.15 A 5.496 5.496 0 0 1 64.705 32.067 Q 64.223 32.658 63.518 33.25 A 4.991 4.991 0 0 1 61.924 34.135 Q 61.136 34.408 60.168 34.5 Q 58.268 34.6 56.368 34.65 Q 54.468 34.7 52.568 34.7 L 49.418 34.7 Q 47.868 34.7 46.368 34.6 Q 41.768 39.4 36.768 43.95 A 119.663 119.663 0 0 1 28.101 51.143 A 107.837 107.837 0 0 1 26.668 52.2 A 56.819 56.819 0 0 1 20.63 56.047 A 46.216 46.216 0 0 1 16.518 58.05 A 27.585 27.585 0 0 1 10.993 59.774 A 22.561 22.561 0 0 1 6.668 60.2 A 8.71 8.71 0 0 1 4.381 59.914 A 6.529 6.529 0 0 1 1.618 58.4 Q -0.228 56.696 0.032 53.378 A 11.738 11.738 0 0 1 0.068 53 A 8.861 8.861 0 0 1 0.323 51.49 A 11.55 11.55 0 0 1 0.718 50.25 Q 1.268 48.8 1.968 47.4 A 6.573 6.573 0 0 1 2.193 46.924 Q 2.607 46.141 3.02 46.021 A 0.533 0.533 0 0 1 3.168 46 Q 3.661 46 3.28 46.777 A 3.489 3.489 0 0 1 3.268 46.8 A 16.273 16.273 0 0 0 2.528 48.585 Q 2.2 49.544 2.064 50.414 A 7.689 7.689 0 0 0 1.968 51.6 A 4.938 4.938 0 0 0 2.143 52.954 A 3.492 3.492 0 0 0 3.518 54.9 Q 4.918 55.894 7.093 55.99 A 10.756 10.756 0 0 0 7.568 56 A 18.027 18.027 0 0 0 12.214 55.353 Q 15.142 54.573 18.368 52.85 A 74.145 74.145 0 0 0 24.941 48.866 A 97.288 97.288 0 0 0 30.568 44.75 Q 36.868 39.8 42.668 34.4 Q 38.768 34.2 35.368 34 A 129.369 129.369 0 0 0 32.546 33.863 Q 31.26 33.816 30.115 33.804 A 72.076 72.076 0 0 0 29.368 33.8 A 30.219 30.219 0 0 0 27.592 33.856 Q 26.799 33.903 25.918 33.989 A 60.025 60.025 0 0 0 24.068 34.2 A 10.84 10.84 0 0 0 22.021 34.655 Q 20.825 35.055 19.926 35.73 A 6.157 6.157 0 0 0 19.268 36.3 A 4.315 4.315 0 0 0 18.744 36.946 Q 18.353 37.527 18.018 38.35 Q 17.468 39.7 17.468 41.1 A 5.693 5.693 0 0 0 17.488 41.58 A 4.731 4.731 0 0 0 17.518 41.85 A 6.733 6.733 0 0 0 17.59 42.26 A 8.476 8.476 0 0 0 17.668 42.6 Q 17.275 42.403 16.253 42.255 A 15.748 15.748 0 0 0 16.218 42.25 A 1.653 1.653 0 0 1 15.548 42.012 Q 15.058 41.696 14.868 41 Q 14.792 40.771 14.774 40.307 A 7.948 7.948 0 0 1 14.768 40 A 3.478 3.478 0 0 1 15.107 38.455 A 3.511 3.511 0 0 1 15.968 37.35 A 11.195 11.195 0 0 1 17.57 36.191 A 14.398 14.398 0 0 1 18.868 35.5 Q 20.568 34.7 21.968 34.1 Q 25.268 32.7 28.768 31.8 Q 32.268 30.9 35.868 30.9 A 133.747 133.747 0 0 1 38.043 30.919 Q 41.382 30.973 45.775 31.186 A 366.184 366.184 0 0 1 46.068 31.2 Q 50.768 26.6 54.768 22.5 Q 58.346 18.832 60.724 16.285 A 197.51 197.51 0 0 0 61.268 15.7 A 44.738 44.738 0 0 1 67.495 10.204 A 40.751 40.751 0 0 1 68.718 9.35 Q 72.668 6.7 76.768 5.6 Z M 92.623 59.559 A 2.257 2.257 0 0 0 93.068 59.6 Q 93.343 59.6 93.524 59.553 A 0.746 0.746 0 0 0 93.668 59.5 A 17.044 17.044 0 0 0 94.434 59.211 A 14.759 14.759 0 0 0 97.268 57.7 Q 98.375 56.939 99.194 56.514 A 7.588 7.588 0 0 1 99.868 56.2 A 5.227 5.227 0 0 1 100.337 55.993 A 4.257 4.257 0 0 1 101.868 55.7 A 5.091 5.091 0 0 1 102.773 55.777 A 3.672 3.672 0 0 1 103.768 56.1 A 4.181 4.181 0 0 0 104.143 56.266 A 3.405 3.405 0 0 0 105.368 56.5 A 0.442 0.442 0 0 0 105.479 56.487 Q 105.615 56.452 105.653 56.319 A 0.432 0.432 0 0 0 105.668 56.2 A 0.703 0.703 0 0 0 105.665 56.134 Q 105.651 55.983 105.568 55.9 A 1.124 1.124 0 0 1 105.549 55.853 Q 105.19 54.937 106.018 52.5 A 40.068 40.068 0 0 1 106.452 51.29 Q 106.844 50.249 107.335 49.102 A 73.878 73.878 0 0 1 108.368 46.8 Q 109.868 43.6 111.568 40.35 A 449.411 449.411 0 0 1 111.793 39.921 Q 112.574 38.432 113.29 37.094 A 273.358 273.358 0 0 1 114.668 34.55 A 332.414 332.414 0 0 0 115.137 33.693 Q 116.157 31.822 116.568 31 Q 118.468 27.3 120.568 23.05 Q 122.668 18.8 124.968 14.65 A 71.037 71.037 0 0 1 126.721 11.657 A 57.868 57.868 0 0 1 129.768 7.2 Q 130.868 5.8 133.118 5.3 A 22.463 22.463 0 0 1 135.151 4.941 A 16.782 16.782 0 0 1 137.268 4.8 L 138.268 4.8 A 4.346 4.346 0 0 1 138.715 4.822 A 3.246 3.246 0 0 1 139.168 4.9 A 8.392 8.392 0 0 1 139.683 4.98 A 6.465 6.465 0 0 1 144.068 7.9 A 10.121 10.121 0 0 1 145.238 10.351 A 11.529 11.529 0 0 1 145.768 13.9 Q 145.768 15.1 145.618 16.35 Q 145.468 17.6 144.968 18.8 A 26.427 26.427 0 0 1 144.836 19.173 Q 144.046 21.355 142.971 23.105 A 15.061 15.061 0 0 1 139.418 27.15 Q 135.768 30 131.468 31 A 41.234 41.234 0 0 1 128.185 31.629 A 32.813 32.813 0 0 1 123.368 32 L 121.668 32 Q 120.868 32 120.068 31.9 A 0.62 0.62 0 0 0 119.947 31.888 Q 119.474 31.888 118.768 32.55 A 7.599 7.599 0 0 0 118.659 32.655 Q 118.166 33.136 118.025 33.463 A 0.607 0.607 0 0 0 117.968 33.7 Q 117.968 33.9 118.168 33.9 Q 118.868 34 119.818 34.05 Q 120.768 34.1 121.768 34.1 A 42.707 42.707 0 0 0 122.453 34.094 Q 123.956 34.07 125.637 33.942 A 73.189 73.189 0 0 0 129.018 33.6 A 34.445 34.445 0 0 0 131.95 33.113 A 27.766 27.766 0 0 0 136.368 31.8 A 26.216 26.216 0 0 0 139.087 30.523 A 31.656 31.656 0 0 0 143.268 27.8 Q 146.668 25.2 148.918 21.75 A 15.776 15.776 0 0 0 149.057 21.534 A 13.171 13.171 0 0 0 151.168 14.4 A 11.801 11.801 0 0 0 151.006 12.436 A 12.252 12.252 0 0 0 149.168 7.8 A 7.625 7.625 0 0 0 148.141 6.483 A 7.959 7.959 0 0 0 145.468 4.7 A 16.908 16.908 0 0 0 143.598 4.048 A 20.005 20.005 0 0 0 140.168 3.4 A 59.851 59.851 0 0 0 139.088 3.298 A 53.285 53.285 0 0 0 134.568 3.1 Q 133.368 3.1 132.268 3.15 Q 131.168 3.2 130.268 3.2 Q 126.568 3.2 122.168 3.25 A 934.073 934.073 0 0 1 119.535 3.276 Q 116.768 3.3 114.568 3.3 A 62.717 62.717 0 0 0 113.965 3.303 Q 112.082 3.321 109.718 3.45 Q 106.968 3.6 104.368 4.25 A 12.46 12.46 0 0 0 102.404 4.91 A 9.307 9.307 0 0 0 100.068 6.35 A 4.63 4.63 0 0 0 98.588 8.68 A 6.378 6.378 0 0 0 98.368 10.4 A 6.691 6.691 0 0 0 98.368 10.433 Q 98.371 10.95 98.453 11.519 A 10.836 10.836 0 0 0 98.668 12.6 Q 99.068 13.9 100.318 15.85 A 15.964 15.964 0 0 0 100.758 16.502 Q 101.392 17.391 101.957 17.879 A 3.012 3.012 0 0 0 102.568 18.3 A 0.302 0.302 0 0 0 102.616 18.319 Q 102.768 18.365 102.992 18.264 A 1.432 1.432 0 0 0 103.118 18.2 Q 103.34 18.073 103.421 17.947 A 0.27 0.27 0 0 0 103.468 17.8 A 0.673 0.673 0 0 0 103.467 17.758 Q 103.457 17.6 103.368 17.6 A 3.237 3.237 0 0 1 101.909 15.551 A 5.192 5.192 0 0 1 101.768 14.3 A 5.403 5.403 0 0 1 101.768 14.272 A 5.669 5.669 0 0 1 102.068 12.5 Q 102.368 11.6 102.768 10.7 A 4.859 4.859 0 0 1 103.588 9.59 Q 104.098 9.065 104.809 8.599 A 11.288 11.288 0 0 1 106.268 7.8 A 23.654 23.654 0 0 1 109.176 6.695 A 32.306 32.306 0 0 1 112.318 5.9 Q 115.768 5.2 119.418 4.85 A 81.772 81.772 0 0 1 122.507 4.611 A 63.615 63.615 0 0 1 126.168 4.5 Q 126.868 4.5 127.468 4.55 Q 128.068 4.6 128.668 4.6 A 16.992 16.992 0 0 0 127.386 5.113 A 20.446 20.446 0 0 0 125.218 6.25 Q 124.261 6.824 123.618 7.473 A 4.927 4.927 0 0 0 122.768 8.6 Q 122.093 9.875 120.912 12.331 A 334.039 334.039 0 0 0 120.068 14.1 A 115.363 115.363 0 0 1 118.894 16.504 A 136.505 136.505 0 0 1 115.968 22 Q 113.568 26.4 111.168 30.85 Q 108.768 35.3 106.468 39.7 Q 104.568 43.3 102.518 46.85 Q 100.468 50.4 98.368 53.9 A 10.988 10.988 0 0 1 98.305 54.018 A 9.592 9.592 0 0 1 95.768 57.05 A 7.964 7.964 0 0 1 94.369 57.925 A 9.129 9.129 0 0 1 91.968 58.7 Q 91.568 58.9 91.968 59.25 Q 92.231 59.48 92.623 59.559 Z"
+            vector-effect="non-scaling-stroke"
+            fill="#3b2824"
+            stroke="#E6E6E6"
+          />
+        </g>
+      </svg>
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+      <!-- header -->
+      <header>
+        <h1>Apurv Pandey</h1>
+        <nav>
+          <ul>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1FIv-koESxqAkWyjWQyphJx8jSkh_zSYL/view"
+                target="_blank"
+                ><i data-lucide="file-text"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.x.com/astarcodes" target="_blank"
+                ><i data-lucide="twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/apurv1306" target="_blank"
+                ><i data-lucide="linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.github.com/ApurvP13" target="_blank"
+                ><i data-lucide="github"></i
+              ></a>
+            </li>
+            <li>
+              <a a href="mailto:apurvwork13@gmail.com"
+                ><i data-lucide="mail-plus"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section id="hero">
+        <div>
+          <p>Hello, I'm a</p>
+          <div class="typewriter-container">
+            <span id="text"></span><span class="cursor"></span>
+          </div>
+        </div>
+        <div id="dev-circle"><h1>&lt;/&gt;</h1></div>
+      </section>
+
+      <section id="info-sec">
+        <p>
+          I build exceptional and beautiful digital experiences for the web,
+          sometimes integrated with AI. Love tinkering with ML and Data Science
+          now and then.
+          <span class="status-blink">Open for Hire.</span>
+        </p>
+        <button id="info-sec-btn1">My Work</button>
+        <button id="info-sec-btn2">Contact Me</button>
+        <a
+          id="resume-link"
+          href="https://drive.google.com/file/d/1FIv-koESxqAkWyjWQyphJx8jSkh_zSYL/view"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Visit Resume</a
+        >
+      </section>
+      <span id="down-arrow"><i data-lucide="move-down"></i></span>
+    </main>
+
+    <!-- The marquee Section -->
+    <section id="tech-stack">
+      <h3 id="my-tech">My Tech Stack</h3>
+      <div class="marquee-container">
+        <ul class="marquee-content">
+          <li class="tech-icons">
+            <i data-lucide="code" class="icon mr-2"></i>
+            <span class="tech-name">JavaScript</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="code" class="icon mr-2"></i>
+            <span class="tech-name">TypeScript</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="layout" class="icon mr-2"></i>
+            <span class="tech-name">React</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="layers" class="icon mr-2"></i>
+            <span class="tech-name">Next.js</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="server" class="icon mr-2"></i>
+            <span class="tech-name">Node.js</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="server" class="icon mr-2"></i>
+            <span class="tech-name">Express</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="database" class="icon mr-2"></i>
+            <span class="tech-name">MongoDB</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="database" class="icon mr-2"></i>
+            <span class="tech-name">PostgreSQL</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="globe" class="icon mr-2"></i>
+            <span class="tech-name">RESTful APIs</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="globe" class="icon mr-2"></i>
+            <span class="tech-name">GraphQL</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="smartphone" class="icon mr-2"></i>
+            <span class="tech-name">TailwindCSS</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="wrench" class="icon mr-2"></i>
+            <span class="tech-name">Git</span>
+          </li>
+          <!-- duplicate -->
+          <li class="tech-icons">
+            <i data-lucide="code" class="icon mr-2"></i>
+            <span class="tech-name">JavaScript</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="code" class="icon mr-2"></i>
+            <span class="tech-name">TypeScript</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="layout" class="icon mr-2"></i>
+            <span class="tech-name">React</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="layers" class="icon mr-2"></i>
+            <span class="tech-name">Next.js</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="server" class="icon mr-2"></i>
+            <span class="tech-name">Node.js</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="server" class="icon mr-2"></i>
+            <span class="tech-name">Express</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="database" class="icon mr-2"></i>
+            <span class="tech-name">MongoDB</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="database" class="icon mr-2"></i>
+            <span class="tech-name">PostgreSQL</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="globe" class="icon mr-2"></i>
+            <span class="tech-name">RESTful APIs</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="globe" class="icon mr-2"></i>
+            <span class="tech-name">GraphQL</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="smartphone" class="icon mr-2"></i>
+            <span class="tech-name">TailwindCSS</span>
+          </li>
+          <li class="tech-icons">
+            <i data-lucide="wrench" class="icon mr-2"></i>
+            <span class="tech-name">Git</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- projects side -->
+    <section class="project-section" id="projects">
+      <div class="project-info">
+        <h2 class="my-project">My Projects</h2>
+        <p>
+          Here are some of my recent projects. Click on a card to see more
+          details.
+        </p>
+      </div>
+      <div class="project-container">
+        <div class="project-card">
+          <img src="./images/movie.png" class="project-image" />
+          <div class="project-overlay">
+            <h2 class="project-title">Movie Website with TMDB</h2>
+            <div class="project-tech-stack">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">TMBD API</span>
+              <span class="tech-tag">React Router</span>
+            </div>
+            <a href="#" class="githubicon"><i data-lucide="github"></i></a>
+          </div>
+          <div class="project-description">
+            <p>
+              Built a dynamic React SPA with TMDB API integration, enabling
+              users to discover and favorite movies. Implemented client-side
+              routing and persistent local storage.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="./images/chef.png" class="project-image" />
+          <div class="project-overlay">
+            <h2 class="project-title">Chef Claude</h2>
+            <div class="project-tech-stack">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Claude API</span>
+              <span class="tech-tag">Javascript</span>
+            </div>
+            <a href="#" class="githubicon"><i data-lucide="github"></i></a>
+          </div>
+          <div class="project-description">
+            <p>
+              Created a fully Claude integrated Web App that lets user input
+              what ingredients they have and the Claude api outputs a recipe
+              that they can make.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="./images/stocks.png" class="project-image" />
+          <div class="project-overlay">
+            <h2 class="project-title">Stock Analysis App</h2>
+            <div class="project-tech-stack">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Ploygon API</span>
+              <span class="tech-tag">Open AI</span>
+            </div>
+            <a href="#" class="githubicon"><i data-lucide="github"></i></a>
+          </div>
+          <div class="project-description">
+            <p>
+              Built a web app that takes in stock tickers and gives a vague
+              prediction about the perfomance of the stocks over the past 3
+              days. The data is fetched from Polygon API and uses Open AI.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="./images/molecule.png" class="project-image" />
+          <div class="project-overlay">
+            <h2 class="project-title">Molecule Infraventures</h2>
+            <div class="project-tech-stack">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">Tailwind</span>
+              <span class="tech-tag">Email.js</span>
+            </div>
+            <a href="#" class="githubicon"><i data-lucide="github"></i></a>
+          </div>
+          <div class="project-description">
+            <p>
+              Built a custom landing page for the realty company Molecule
+              Infraventures from scratch using React, TypeScript, Tailwind CSS
+              and Node.js and added email functionality using Email.js
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about me section -->
+    <section class="about-container">
+      <h2>About me</h2>
+      <div class="about-main">
+        <div class="about-me">
+          <h3 class="about-h3">
+            <span><i data-lucide="user"></i></span>Who Am I?
+          </h3>
+          <p class="about-p">
+            I'm a passionate full stack developer with a focus on creating
+            clean, efficient, and user-friendly applications. With a strong
+            foundation in both frontend and backend technologies, I enjoy
+            building complete web solutions from scratch.
+          </p>
+          <p class="about-p">
+            When I'm not coding, you can find me exploring new technologies,
+            contributing to open-source projects, or enjoying a good cup of
+            coffee while reading tech blogs.
+          </p>
+        </div>
+
+        <div class="exp">
+          <div class="work-exp">
+            <h3 class="about-h3">
+              <span><i data-lucide="briefcase-business"></i></span>Work-Ex
+            </h3>
+            <div class="exp-card">
+              <p class="exp-title exp-p">Virtual Intern</p>
+              <p class="exp-info exp-p">
+                JP Morgan Chase & Co * May 2023 - Jul 2023
+              </p>
+              <p class="exp-desc exp-p">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptas similique id fugit quos tempore praesentium corporis
+                incidunt eum iste distinctio maiores assumenda et, illo ratione
+                veniam culpa quasi fugiat nobis.
+              </p>
+            </div>
+          </div>
+
+          <div class="edu-exp">
+            <h3 class="about-h3">
+              <span><i data-lucide="graduation-cap"></i></span>Education
+            </h3>
+            <div class="exp-card">
+              <p class="exp-title exp-p">B-Eng in Computer Science</p>
+              <p class="exp-info exp-p">
+                University Of Huddersfield, UK * Sep 2020 - Jun 2023
+              </p>
+              <p class="exp-desc exp-p">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Similique quam ducimus nihil hic magnam eligendi aperiam impedit
+                velit possimus debitis? Aut ab perspiciatis praesentium sed fuga
+                accusamus culpa suscipit odit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="certificate-container">
+      <div class="cert-info">
+        <h3>My Certificates</h3>
+        <p>hover over the texts 🤫</p>
+      </div>
+      <div class="cert-cards-container">
+        <div class="cert-cards">
+          <div class="hoverText" data-image="./certs/ts-cert.png">
+            Learn TypeScript <span>From: Scrimba</span>
+          </div>
+        </div>
+        <div class="cert-cards">
+          <div class="hoverText" data-image="./certs/html-cert.png">
+            Learn HTML & CSS <span>From: Scrimba</span>
+          </div>
+        </div>
+        <div class="cert-cards">
+          <div class="hoverText" data-image="./certs/js-cert.png">
+            Learn JavaScript <span>From: Scrimba</span>
+          </div>
+        </div>
+        <div class="cert-cards">
+          <div class="hoverText" data-image="./certs/tailwind-cert.png">
+            Learn TailwindCSS <span>From: Scrimba</span>
+          </div>
+        </div>
+        <div class="cert-cards">
+          <div class="hoverText" data-image="./certs/jp-cert.png">
+            JP Morgan Virtual Intern <span>From: JP Morgan Chase & Co</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <img class="floatingImage" />
+    <!-- Contact Section -->
+
+    <section class="contact-container" id="hire">
+      <h3>Get in Touch</h3>
+      <p>Want to hire me or just want to chat? Feel free to reach out!</p>
+      <div class="contact-container-sub">
+        <form id="contact-form" action="">
+          <label>
+            Your Name
+            <input
+              type="text"
+              name="name"
+              placeholder="Albert Newton"
+              required
+            />
+          </label>
+          <label>
+            Your Email
+            <input
+              type="email"
+              name="email"
+              placeholder="albert@newton.com"
+              required
+            />
+          </label>
+          <label>
+            Your Message
+            <textarea
+              name="message"
+              id="user-text"
+              placeholder="Hello, I'd like to talk about ..."
+              required
+            ></textarea>
+          </label>
+          <button id="form-submit" type="submit">
+            Send Message <i data-lucide="send"></i>
+          </button>
+        </form>
+        <div class="contact-info">
+          <h4>Contact Information</h4>
+          <div class="contact-info-cards">
+            <i data-lucide="mail"></i>
+            <div class="contact-info-cards-name">
+              <p class="contact-name">Email</p>
+              <p class="contact-item">apurvwork13@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-info-cards">
+            <i data-lucide="map-pin-house"></i>
+            <div class="contact-info-cards-name">
+              <p class="contact-name">Location</p>
+              <p class="contact-item">Mumbai, Ind 🇮🇳</p>
+            </div>
+          </div>
+
+          <div class="contact-info-cards">
+            <i data-lucide="message-square"></i>
+            <div class="contact-info-cards-name">
+              <p class="contact-name">Social Media</p>
+              <div class="contact-item">
+                <a href="http://x.com/astarcodes" target="_blank">
+                  <i data-lucide="twitter"></i>
+                </a>
+                <a href="http://linkedin.com/in/apurv1306" target="_blank">
+                  <i data-lucide="linkedin"></i>
+                </a>
+                <a href="http://github.com/ApurvP13" target="_blank">
+                  <i data-lucide="github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+      <h3>Apurv Pandey<span>.</span></h3>
+      <p>Creating beautiful web experiences with clean, efficient code.</p>
+      <div>
+        <p>© 2025 Apurv Pandey. All rights reserved.</p>
+        <button id="take-top">
+          Back To Top <i data-lucide="chevron-up"></i>
+        </button>
+      </div>
+    </footer>
+
+    <!----------------------Scripts----------------------------------------------------->
+    <!-- GSAP Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- Animation Script -->
+    <script src="index.js" type="module"></script>
+    <!-- Icon Script -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
